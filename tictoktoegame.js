@@ -1,18 +1,5 @@
 
-    </style>
-</head>
-<body>
-    <div class="game-container">
-        <h1>Tic-Tac-Toe</h1>
-        <div class="status" id="status">Player X's turn</div>
-        <div class="board" id="board"></div>
-        <div class="controls">
-            <button id="reset">Reset Game</button>
-        </div>
-        <div class="console" id="console">Game started...\n</div>
-    </div>
-
-    <script>
+   
         // Your original C++ code structure translated to JavaScript
         class player {
             constructor(sym = 'X', n = "Player X") {
